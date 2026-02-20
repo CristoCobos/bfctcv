@@ -1,4 +1,4 @@
-import itertools
+from itertools import product
 import networkx as nx
 
 def is_hamltonian_cycle(graph, cycle):
