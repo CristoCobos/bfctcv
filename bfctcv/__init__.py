@@ -24,7 +24,7 @@ def is_hamiltonian(graph):
       return perm
   return False
 
-  def is_proper_coloring(graph, coloring):
+def is_proper_coloring(graph, coloring):
   for edge in graph.edges():
     if coloring[edge[0]] == coloring[edge[1]]:
       return False
