@@ -37,8 +37,7 @@ def is_3_coloring(graph):
     if is_proper_coloring(graph, coloring):
       return coloring
   return False
-
-  def knapsack_problem(desired_value, capacity, profits, weights):
+def knapsack_problem(desired_value, capacity, profits, weights):
   n = len(profits)
   potencia = list(itertools.product([0,1], repeat=n))
   for combination in potencia:
