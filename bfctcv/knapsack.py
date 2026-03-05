@@ -1,4 +1,5 @@
 import itertools
+import networkx as nx
 
 def knapsack_problem(desired_value, capacity, profits, weights):
   n = len(profits)
